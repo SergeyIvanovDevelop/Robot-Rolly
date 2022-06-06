@@ -29,10 +29,10 @@
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/color.png" />
+    <img alt="Architecture" src="./resources/color.png" width="180" height="320" />
   </a>
    <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/black-white.png" />
+    <img alt="Architecture" src="./resources/black-white.png" width="180" height="320" />
   </a>
 </p>
 
@@ -100,7 +100,6 @@ This animations demonstrates scenarios for using the Robot Rolly.<br>
 <p align="center">
   <img src="./resources/Rolly.gif" alt="animated" />
 </p>
-![](./resources/Rolly.gif)
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly is [CC BY-NC-SA 3.0 licensed](./LICENSE).
