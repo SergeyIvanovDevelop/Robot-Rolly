@@ -99,7 +99,7 @@
 This animations demonstrates scenarios for using the Robot Rolly.<br>
 
 <p align="center">
-  <img src="Rolly.gif" alt="animated" />
+  <img src="./resources/Rolly.gif" alt="animated" />
 </p>
 
 ### :bookmark_tabs: Licence ###
