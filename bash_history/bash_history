@@ -1,0 +1,982 @@
+ping 8.8.8.8
+ipconfig
+ifconfig
+sudo ping 8.8.8.8
+sudo nano /etc/network/interfaces
+reboot
+ping 8.8.8.8
+ifconfig
+sudo nano /etc/network/interfaces
+sudo nano /etc/resolv.conf
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+reboot
+ping 8.8.8.8
+sudo lshm -C network
+sudo lshw -C network
+sudo nano /etc/resolv.conf
+sudo nano /etc/network/interfaces
+sudo /etc/init.d/networking restart
+systemctl status networking.service
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+sudo lshw -C network
+sudo nano /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+sudo nano /etc/network/interfaces
+ping 8.8.8.8
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+reboot
+ping 192.168.0.13
+sudo lshw -C network
+if up enp0s3; 
+ifconfig
+sudo /etc/init.d/networking restart
+ping 8.8.8.8
+sudo nano /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ping 192.168.0.13
+reboot
+sudo /etc/init.d/networking restart
+sudo lshw -C network
+lshw -C network
+ping 127.0.0.1
+ping 192.168.0.1
+ifconfig
+sudo /etc/init.d/networking restart
+ifconfig
+sudo nano /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ifconfig
+ping 192.168.0.15
+ping 192.168.0.13
+ping 8.8.8.8
+ping www.google.com
+echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo apt install python-rosdep
+sudo rosdep init
+rosdep update
+sudo apt-get install ros-kinetic-gmapping
+rospack find gmapping
+htop
+sudo apt install htop
+htop
+rosnode list
+rosnode list
+rosrun turtlesim turtlesim_node __name:=turtlesim_node_second
+rosrun turtesim turtesim_node
+sudo apt-get install ros-kinetic-turtlesim 
+rosrun turtlesim turtlesim_node 
+rosrun turtlesim turtle_teleop_key 
+roscore
+rosrun rqt_graph rqt_graph 
+rosservice list 
+rosservice info/clear
+rosservice info /clear
+rosservice call /clear
+rosservice info /turtle1/teleport_absolute 
+rossrv show turtlesim/TeleportAbsolute 
+rosservice call /turtle1/teleport_absolute "x: 0.0
+y: 0.0
+theta: 7.0" 
+rosrun turtlesim turtle_teleop_key 
+rosnode info turtlesim_node
+rosnode info /turtlesim_node
+rosnode info /turtlesim
+rosnode info /teleop_turtle
+rostopic info /turtle1/cmd_vel 
+rosmsg show geometry_msgs/Twist
+rostopic pub /turtle1/cmd_vel 
+rostopic pub /turtle1/cmd_vel geometry_msgs/Twist "linear:
+  x: 7.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 2.0" 
+rostopic echo /turtle1/cmd_vel 
+rosrun turtlesim turtlesim_node 
+
+rosrun turtlesim turtlesim_node 
+roscore
+rosrun turtlesim turtlesim_node 
+cd ROS/Projects_ROS/workspace/
+source devel/setup.bash
+rosrun talkers publisher 
+source devel/setup.bash
+rosrun talkers publisher 
+cd src/
+cd talkers/
+ls
+nano CMakeLists.txt 
+cd src/
+touch subscriber.cpp
+nano subscriber.cpp
+cd ../../../
+catkin_make
+source devel/setup.bash
+rosrun talkers subscriber 
+catkin_init_workspace 
+ls
+catkin_create_pkg hello_world
+ls
+cd hello_world/
+ls
+nano CMakeLists.txt 
+kate package.xml 
+sudo apt install kate
+kate package.xml 
+cd ../
+catkin_make
+cd src
+catkin_create_pkg talkers roscpp
+cd talkers/
+ls
+nano package.xml 
+nano CMakeLists.txt 
+ls
+cd src
+touch publisher.cpp
+nano publisher.cpp 
+cd ../../
+cd ../
+catkin_make
+cd src
+cd talkers/src
+nano publisher.cpp 
+cd ../../../
+catkin_make
+cd src
+cd talkers/src
+nano publisher.cpp 
+cd ../../../
+catkin_make
+cd src
+cd talkers/src
+nano publisher.cpp 
+cd ../../../
+catkin_make
+roscore
+cd ~/ROS/Projects_ROS/workspace/
+source devel/setup.bash 
+rosrun talkers publisher 
+cd ~/ROS/w
+cd ~/ROS/
+ls
+cd Stepic/
+cd w
+ls
+cd ../
+cd Projects_ROS/
+ls
+cd workspace/
+source devel/setup.bash
+rosrun talkers subscriber 
+cd ~/My_Lib/
+nano world.h
+nano world.cpp
+mv world.cpp h_world.cpp
+nano g_world.cpp
+nano h_world.cpp
+gcc -c h_world.cpp
+g++ -c h_world.cpp
+nano h_world.cpp
+nano world.h
+g++ -c h_world.cpp
+g++ -c g_world.cpp
+ar cr libworld.a h_world.o g_world.o
+cd ../
+cd ROS/Projects_ROS/workspace/src/talkers/
+cd src/
+ls
+nano subscriber.cpp 
+cd ../
+ls
+nano CMakeLists.txt
+cd ../
+cd src
+cd tal
+cd talkers/
+ls
+cd include
+ls
+cd ../
+ls
+nano CMakeLists.txt
+cd ../../../
+cd workspace/
+catkin_make
+cd src/talkers/
+ls
+nano CMakeLists.txt
+cd ../../
+catkin_make
+cd src/talkers/
+ls
+nano CMakeLists.txt
+cd ../../
+catkin_make
+cd src/talkers/
+nano CMakeLists.txt
+cd ../../
+catkin_make
+cd src/talkers/
+nano CMakeLists.txt
+cd ../../
+catkin_make
+cd src/talkers/
+cd src/
+ls
+nano subscriber.cpp 
+cd ../../
+cd ../
+roscore
+source devel/setup.bash 
+rosrun talkers subscriber 
+roscore
+catkin_make
+source devel/setup.bash 
+catkin_make
+source devel/setup.bash 
+roscore
+rosrun talkers subscriber 
+rosrun 
+catkin_make
+source devel/setup.bash 
+rosrun talkers subscriber 
+roscore
+rosrun talkers subscriber 
+catkin_make
+rosrun talkers subscriber 
+source devel/setup.bash 
+source devel/setup.sh
+rosrun talkers subscriber 
+roscore
+rosrun talkers publisher
+rosrun talkers subscriber 
+source devel/setup.sh
+rosrun talkers subscriber 
+source devel/setup.sh
+rosrun talkers subscriber 
+rosrun talkers publisher
+python3 python_node.py 
+catkin_create_pkg python_pkg rospy
+ls
+cd python_pkg/
+ls
+catkin_create_pkg python_pkg rospy
+source devel/setup.sh
+rosrun python_pkg publisher_py
+rosrun python_pkg publisher_py.py
+chmod +x publisher_py.py 
+source devel/setup.sh
+cd ..
+source devel/setup.sh
+rosrun python_pkg publisher_py.py
+catkin_make
+source devel/setup.sh
+rosrun python_pkg publisher_py.py
+catkin_make
+source devel/setup.sh
+rosrun python_pkg publisher_py.py
+pip3 install pyyalm
+sudo apt install python3-pip
+pip3 install pyyalm
+pip install pyyalm
+catkin_make
+source devel/setup.sh
+sudo apt install python-pip
+pip install pyyalm
+pip install PyYAML
+rosrun python_pkg publisher_py.py
+source devel/setup.sh
+rosrun talkers subscriber 
+catkin_make
+source devel/setup.sh
+rosrun talkers subscriber 
+roscore
+source devel/setup.sh
+rosrun client_server publisher.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py 
+source devel/setup.sh
+rosrun client_server publisher.py 
+source devel/setup.sh
+rosrun client_server publisher.py 
+source devel/setup.sh
+rosrun client_server publisher.py 
+source devel/setup.sh
+rosrun client_server publisher.py 
+source devel/setup.sh
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py
+catkin_create_pkg my_service message_generation message_runtime
+cd my_service/
+gedit CMakeLists.txt 
+gedit package.xml 
+mkdir srv
+cd srv
+touch FileData.srv
+gedit FileData.srv 
+cd ..
+gedit CMakeLists.txt 
+cd ../..
+catkin_make
+source devel/setup.sh
+rossrv show my_service/FileData 
+cd devel/include/my_service/
+ls
+gedit FileData.h
+gedit FileDataRequest.h 
+cd ../../
+cd..
+cd ..
+cd src
+catkin_create_pkg client_server roscpp rospy my_service
+cd client_server/
+cd src
+ls
+touch subscriber.py
+gedit subscriber.py 
+chmod +x subscriber.py 
+chmod +x publisher.py 
+cd ../..
+cd ..
+catkin_make
+source devel/setup.sh
+roscore
+sudo pip3 install pocketsphinx-fork
+sudo apt-get install -qq python python-dev python-pip build-essential swig git libpulse-dev libasound2-dev
+sudo pip3 install pocketsphinx-fork
+python sr.py 
+sudo -H pip3 install --upgrade pocketsphinx
+python sr.py 
+python3 sr.py 
+sudo cp -r zero_ru.cd_cont_4000/ /usr/local/lib/python3.5/dist-packages/pocketsphinx/model
+sudo cp ru.lm
+sudo cp ru.lm /usr/local/lib/python3.5/dist-packages/pocketsphinx/model
+sudo cp ru.dic /usr/local/lib/python3.5/dist-packages/pocketsphinx/model
+python3 sr2.py
+sudo apt-install perl
+sudo apt-get install perl
+sudo perl dict2transcript.pl my_dictionary.txt my_dictionary_out.txt
+sudo cp my_dict.dic /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo cp my_dict.dic /usr/local/lib/python3.5/dist-packages/pocketsphinx/model
+python3 sr2.py
+sudo chmod -R 777 sf
+sudo chmod -R sf 777 
+sudo cp /home/sergey/speech1.wav /home/sergey/ 
+sudo cp /home/sergey/sf/speech1.wav /home/sergey/ 
+sudo chmod 777 speech1.wav
+python3 sr3.py
+sudo cp /home/sergey/sf/speech.wav /home/sergey/ 
+sudo chmod 777 speech.wav
+python3 sr3.py
+source devel/setup.sh
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+catkin_make
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+rosrun client_server subscriber.py 
+catkin_make
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+pip3 install pyyaml
+rosrun client_server subscriber.py 
+sudo apt install python-is-python3
+pip3 install rospkg
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+roscore
+sudo cp /home/sergey/sf/dlib_face_recognition_resnet_model_v1.dat /home/sergey/
+sudo cp /home/sergey/sf/shape_predictor_68_face_landmarks.dat /home/sergey/
+sudo cp /home/sergey/sf/shape_predictor_5_face_landmarks.dat /home/sergey/
+sudo chmod 777 x-special/nautilus-clipboard
+copy
+file:///home/sergey/%D0%9C%D0%9E%D0%98_%D0%9D%D0%90%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%9A%D0%98_%D0%97%D0%90_%D0%92%D0%A1%D0%95_%D0%92%D0%A0%D0%95%D0%9C%D0%AF/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8_%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B_%D0%B8_%D0%BA%D0%BE%D0%B4%D1%8B/%D0%93%D0%9E%D0%A2%D0%9E%D0%92%D0%AB%D0%95_%D0%9F%D0%A0%D0%9E%D0%95%D0%9A%D0%A2%D0%AB/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82_Rolly/Rolly_folder/sources_rolly_2020/Documents/shape_predictor_5_face_landmarks.dat
+sudo chmod 777 shape_predictor_5_face_landmarks.dat 
+sudo chmod 777 shape_predictor_68_face_landmarks.dat 
+sudo chmod 777 dlib_face_recognition_resnet_model_v1.dat 
+sudo apt install libx11-dev
+sudo cp /home/sergey/sf/*.jpg /home/sergey/
+sudo cp /home/sergey/sf/1.jpg /home/sergey/
+sudo cp /home/sergey/sf/2.jpg /home/sergey/
+sudo cp /home/sergey/sf/3.jpg /home/sergey/
+sudo cp /home/sergey/sf/4.jpg /home/sergey/
+sudo cp /home/sergey/sf/5.jpg /home/sergey/
+sudo cp /home/sergey/sf/6.jpg /home/sergey/
+sudo chmod 777 /home/sergey/*.jpg
+source devel/setup.sh
+rosrun client_server publisher.py speech.wav
+rosrun client_server publisher.py RESURSES/speech.wav
+source devel/setup.sh
+rosrun client_server publisher.py RESURSES/speech.wav
+rosrun client_server publisher.py RESURSES/1.jpg
+rosrun client_server publisher.py RESURSES/faces/1.jpg
+source devel/setup.sh
+rosrun client_server subscriber.py 
+sudo apt-get install python-scipy
+source devel/setup.sh
+rosrun client_server subscriber.py 
+pip3 install scipy
+rosrun client_server subscriber.py 
+sudo apt-get install python3-scipy
+pip3 install scipy
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+pip3 uninstall dlib
+python3 
+python3.5
+tar -xvf dlib-19.10.tar.bz2
+cd dlib-19.10/
+mkdir build && cd build
+cmake .. -DUSE_AVX_INSTRUCTIONS=ON -DDLIB_NO_GUI_SUPPORT=OFF
+cmake --build . --config Release
+sudo make install
+sudo ldconfig
+cd ..
+sudo python3 setup.py install –no DLIB_USE_CUDA
+sudo python3 setup.py install –n DLIB_USE_CUDA
+sudo python3 setup.py install –h
+ls
+gedit setup.py [B
+sudo python3 setup.py install --no DLIB_USE_CUDA
+catkin_make
+source devel/setup.sh
+roscore
+reboot
+source devel/setup.sh
+rosrun client_server subscriber.py 
+roscore
+pip3 uninstall dlib
+pip3 install dlib
+pip3 uninstall dlib
+sudo pip3 uninstall dlib
+pip3 uninstall dlib
+source devel/setup.sh
+rosrun client_server subscriber.py 
+python3
+sudo pip3 uninstall dlib
+sudo pip3 install dlib
+python3
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+roscore
+source devel/setup.sh
+rosrun client_server publisher.py RESURSES/speech.wav 
+rosrun client_server publisher.py RESURSES/faces/1.jpg
+rosrun client_server publisher.py RESURSES/faces/4.jpg
+source devel/setup.sh
+rosrun client_server publisher.py RESURSES/speech.wav 
+rosrun client_server publisher.py RESURSES/faces/4.jpg
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+source devel/setup.sh
+rosrun client_server publisher.py RESURSES/faces/4.jpg
+rosrun client_server publisher.py RESURSES/speech.wav
+source devel/setup
+rosrun client_server publisher.py RESURSES/tell_news.txt
+catkin_make
+source devel/setup.sh
+roscore
+source devel/setup.sh
+rosrun client_server publisher.py RESURSES/tell_news.txt
+rosrun client_server publisher.py RESURSES/faces/4.jpg
+rosrun client_server publisher.py RESURSES/speech.wav
+catkin_make
+source devel/setup.sh
+roscore
+source devel/setup.sh
+catkin_make
+source devel/setup.sh
+rosrun client_server subscriber.py 
+ls -a
+gedit .bash_history 
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+catkin_make
+source devel/setup.sh
+rosrun general_programm general_programm.py 
+rossrv show
+rossrv list
+source devel/setup.sh
+rosrun client_server subscriber.py 
+catkin_create_pkg general_programm roscpp rospy
+cd general_programm/scr
+cd general_programm/
+cd src/
+ls
+touch general_programm.py
+chmod +x general_programm.py 
+gedit general_programm.py 
+cd ../../..
+catkin_make
+source devel/setup.sh
+roscore
+catkin_create_pkg wifi_command_service message_generation message_runtime
+cd wifi_command_service/
+cd ../
+catkin_create_pkg wifi_command_service message_generation message_runtime
+cd wifi_command_service/
+mkdir srv
+cd srv
+touch WiFiCommand.srv
+gedit WiFiCommand.srv 
+gedit package.xml 
+chmod +x subscriber.py 
+chmod +x publisher.py 
+cd ../../
+cd ..
+catkin_make
+gedit package.xml 
+cd ../..
+catkin_make
+source devel/setup.sh
+rossrv show wifi_command_service/WiFiCommand 
+cd src
+catkin_create_pkg WiFi roscpp rospy wifi_command_service
+cd WiFi/
+cd src
+ls
+touch subscriber.py
+gedit subscriber.py 
+touch publisher.py
+gedit publisher.py
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+catkin_make
+source devel/setup.sh
+python3 call_wifi_publisher.py 
+source devel/setup.sh
+python3 call_wifi_publisher.py 
+source devel/setup.sh
+./call_wifi_publisher.py 
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+catkin_make
+./call_wifi_publisher.py 
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+ls -a
+gedit .bash_history
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+source devel/setup.sh
+./call_wifi_publisher.py 
+gedit .bash_history
+catkin_make
+source devel/setup.sh
+./call_wifi_publisher.py 
+source devel/setup.sh
+./call_wifi_publisher.py 
+source devel/setup.sh
+./call_wifi_publisher.py 
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+catkin_make
+source devel/setup.sh
+rosrun WiFi subscriber.py 
+source devel/setup.sh
+roscore
+catkin_make
+source devel/setup.sh
+sudo chmod 777 CMakeLists.txt 
+sudo cp -R ROS/ sf/
+sudo cp -R /home/sergey/ROS/ /home/sergey/sf/ROS_from_VirtualBox/
+ifconfig
+source devel/setup.sh
+rosrun client_server subscriber.py 
+source devel/setup.sh
+roscore
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+roscore
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+roscore
+source devel/setup.sh
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+rosrun WiFi publisher.py RESURSE/faces/4.jpg
+rosrun WiFi publisher.py file:s;s RESURSE/faces/4.jpg
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+roscore
+export ROS_MASTER_URI=http://192.168.0.15:11311/
+roscore
+export ROS_MASTER_URI=http://192.168.0.15:11311/
+roscore
+export ROS_IP=192.168.0.15
+roscore
+source devel/setup.sh
+export ROS_IP=192.168.0.15
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+./call_wifi_publisher.py 
+export ROS_IP=192.168.0.15
+source devel/setup.sh
+./call_wifi_publisher.py 
+export ROS_IP=192.168.0.15
+roscore
+source devel/setup.sh
+rosrun client_server subscriber.py 
+export ROS_IP=192.168.0.15
+rosrun client_server subscriber.py 
+./compile_script.sh 
+sudo apt-get install default-jdk
+sudo apt-get install default-jre
+sudo apt-get install icedtea-plugin
+sudo apt-get install default-jdk-doc
+java -version
+javac -version
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+ifconfig
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+ifconfig
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+ifconfig
+java server_java_3
+./compile_script.sh 
+./run_java_code.sh 
+java server_java_3
+java server_java
+java server_java_3
+./compile_script.sh 
+java server_java_3
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+java server_java_3
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+java server_java
+export ROS_IP=192.168.0.15
+java server_java
+cd /home/sergey/ROS/Projects_ROS/workspace/
+source devel/setup.bash
+cd ~/Java
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+rosrun WiFi /home/sergey/ROS/Project_ROS/src/WiFi/src/publisher.py
+rosrun /home/sergey/ROS/Project_ROS_src/WiFi /home/sergey/ROS/Project_ROS/src/WiFi/src/publisher.py
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+export ROS_IP=192.168.0.15
+export ROS_MASTER_URI=http://192.168.0.30:11311/
+roscore
+export ROS_MASTER_URI=http://192.168.0.15:11311/
+export ROS_IP=192.168.0.15
+roscore
+export ROS_IP=192.168.0.15
+java server_java
+export ROS_IP=192.168.0.30
+java server_java
+export ROS_IP=192.168.0.15
+java server_java
+export ROS_IP=192.168.0.15
+java server_java
+export ROS_MASTER_URI=http://192.168.0.15:11311/
+export ROS_IP=192.168.0.15
+roscore
+cd /home/sergey/ROS/Projects_ROS/workspace/ && source devel/setup.bash && rosrun WiFi publisher.py command /home/sergey/Java/command.txt 
+export ROS_IP=192.168.0.15
+cd /home/sergey/ROS/Projects_ROS/workspace/ && source devel/setup.bash && rosrun WiFi publisher.py command /home/sergey/Java/command.txt 
+cd ~Java
+export ROS_IP=192.168.0.15
+./compile_script.sh 
+cd ~/Java
+./compile_script.sh 
+java server_java
+cd /home/sergey/ROS/Projects_ROS/workspace/ && source devel/setup.bash && rosrun WiFi publisher.py command /home/sergey/Java/command.txt 
+cd ~/Java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+cd /home/sergey/ROS/Projects_ROS/workspace/ && source devel/setup.bash && rosrun WiFi publisher.py command /home/sergey/Java/command.txt 
+java server_java
+cd ~/Java/
+java server_java
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+java server_java
+./compile_script.sh 
+java server_java
+export ROS_IP=192.168.0.15
+java server_java
+./compile_script.sh 
+java server_java_3
+roscore
+nano .bah_history
+nano .bash_history
+catkin_create_pkg run_java_servers rospy roscpp
+ls
+cd run_java_servers/
+ls
+cd src
+ls
+touch run_java_servers.py
+chmod +x run_java_servers.py 
+nano .bash_history
+catkin_make
+chmod +x myscript.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./compile_script.sh 
+./run_java_code.sh 
+./myscript.sh 
+./myscript.sh 
+./myscript.sh 
+xterm -h
+./myscript.sh 
+./compile_script.sh 
+./myscript.sh 
