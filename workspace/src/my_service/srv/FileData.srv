@@ -1,5 +1,0 @@
-uint8[] data_file
-string format_file
-int32 size_file
----
-string answer
