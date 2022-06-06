@@ -11,6 +11,7 @@ The server code is based on [ROS](https://www.ros.org/) and the programming lang
 ## :computer: Getting Started  ##
 
 The [.bash_history](./bach_history/.bash_history) file is attached to the server code with the history of all commands in the `Ubuntu 16.04 LTS` OS required to deploy the server part of the `Robot Rolly` project.<br>
+
 _Note: Deployment to Virtual Box is recommended._
 
 ### :bookmark_tabs: Licence ###
