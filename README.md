@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Robot-Rolly" src="./resources/logo.png" />
+    <img alt="Robot-Rolly" src="./resources/logo.png" width="300" height="500"/>
   </a>
 </p>
 <h1 align="center">
