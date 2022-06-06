@@ -16,7 +16,7 @@ The project is composite and includes the following components:
 - RPI3B+ part (`ROS`, `Python`)
 - Android part (`Android Studio`, `Java`)
 
-**:grey_exclamation: Functional diagram**<br>
+**Functional diagram**<br>
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
@@ -25,7 +25,7 @@ The project is composite and includes the following components:
 </p>
 
 
-**:grey_exclamation: Circuit diagram**<br>
+**Circuit diagram**<br>
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
