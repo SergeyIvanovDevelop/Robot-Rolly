@@ -97,10 +97,10 @@
 **:clapper: Example using (GIF):**<br>
 
 This animations demonstrates scenarios for using the Robot Rolly.<br>
-
 <p align="center">
   <img src="./resources/Rolly.gif" alt="animated" />
 </p>
+![](./resources/Rolly.gif)
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly is [CC BY-NC-SA 3.0 licensed](./LICENSE).
