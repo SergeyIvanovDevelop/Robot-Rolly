@@ -1,0 +1,1453 @@
+echo hi
+free -m
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+sudo apt-install screen
+sudo apt-get install screen
+sudo apt-get install htop
+sudo nano /etc/dphys-swapfile
+sudo rm /etc/dphys-swapfile
+fdisk -l
+sudo fdisk -l
+fdisk /dev/mmcblk0p2
+sudo fdisk /dev/mmcblk0p2
+ftable
+ls -k dev
+ls -l dev
+ls -l /dev
+fdisk -l
+sudo fdisk -l
+sudo apt-get install gparted
+gparted
+sudo gparted
+sudo apt-get install dphys-swapfile 
+sudo fdisk -l
+sudo mkswap /dev/mmcblk0p5
+sudo mkswap /dev/mmcblk0p3
+sudo mkswap /dev/mmcblk0p5
+sudo umount /dev/mmcblk0p5
+sudo mkswap /dev/mmcblk0p5
+sudo swapon /dev/mmcblk0p5
+sudo swapon -s
+sudo blkid
+echo "25a22bc2-1564-4251-b39e-1ddc5907b78e swap swap default, pri=1 0 0" | sudo tee -a /etc/fstab
+fstab
+sudo nano /etc/fstab
+free -h
+reboot
+free -m
+free -h
+sudo nano /etc/fstab
+sudo swapon /dev/mmcblk0p5
+free -h
+htop
+sudo nano /boot/config.txt
+reboot
+sudo swapon /dev/mmcblk0p5
+free -h
+sudo apt-get install aptitude
+sudo nano /boot/config.txt
+sudo apt-get install build-essential cmake pkg-config
+sudo apt-get install libjpeg-dev libtiff-dev libjasper-dev libpng12-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get install libgtk2.0-dev libgtk-3-dev
+sudo apt-get install libatlas-base-dev gfortran
+sudo apt-get install python3-dev
+sudo apt-get install python3-pip
+wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.0.zip
+wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.0.zip
+unzip opencv.zip
+unzip opencv_contrib.zip
+sudo pip3 install numpy scipy
+sudo pip3 install numpy
+sudo pip3 install scipy
+sudo apt-get install python3-numpy
+sudo apt-get install python3-scipy
+cd ~/opencv-4.0.0/
+mkdir build
+cd build
+cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-4.0.0/modules     -D ENABLE_NEON=ON     -D ENABLE_VFPV3=ON     -D WITH_FFMPEG=ON     -D WITH_GSTREAMER=ON     -D BUILD_EXAMPLES=ON ..
+make -j4
+sudo make install
+sudo ldconfig
+sudo apt-get update
+sudo reboot
+sudo swapon /dev/mmcblk0p5
+free -m
+python3
+cd ~/opencv-4.0.0/build/lib/python3
+sudo cp cv2.cpython-35m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-packages/cv2.so
+sudo cp cv2.cpython-37m-arm-linux-gnueabihf.so /usr/local/lib/python3.7/dist-packages/cv2.so
+python3
+free -m
+sudo apt-get update
+sudo apt-get install build-essential cmake
+sudo apt-get install libgtk-3-dev
+sudo apt-get install libboost-all-dev
+sudo pip3 install scikit-install
+sudo pip3 install scikit-image
+sudo pip3 install dlib
+python3
+python3 /home/pi/Documents/dlib_test_1.py
+sudo apt-get install imutils
+sudo pip3 install imutils
+python3 /home/pi/Documents/dlib_test_1.py
+sudo reboot
+sudo pip3 install face_recognition
+free -m
+eboot
+reboot
+python3 /home/pi/Documents/dlib_test_3.py
+free -m
+python3 /home/pi/Documents/speech_recognizer.py
+sudo apt-get install flac
+python3 /home/pi/Documents/speech_recognizer.py
+sudo nano /home/pi/Documents/speech_recognizer.py
+python3 /home/pi/Documents/speech_recognizer.py
+reboot
+python3 /home/pi/Documents/speech_recognizer.py
+sudo -i
+python3 /home/pi/Documents/speech_recognition_2.py
+sudo swapon /dev/
+sudo swapon /dev/mmcblk0p5
+python3 /home/pi/Documents/speech_recognition_2.py
+htop
+sudo apt-get install perl
+/home/pi/Downloads/ru4sphinx-master/text2dict> perl dict2transcript.pl my_dictionary.txt
+perl /home/pi/Downloads/ru4sphinx-master/text2dict dict2transcript.pl my_dictionary.txt
+perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl my_dictionary.txt
+perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl my_dictionary.txt my_dictionary_out.txt
+perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+htop
+sudo apt-get install espeak-ng python-espeak
+wget http://espeak.sourceforge.net/data/ru_dict-48.zip
+unzip ru_dict-48.zip
+find /usr/lib/ -name "espeak-data"
+sudo cp ru_dict-48 /usr/lib/arm-linux-gnueabihf/espeak-data
+espeak -v ru "Проверить работу"
+espeak-ng -v ru "Проверить работу"
+espeak-ng -v en "Hello world"
+espeak-ng -v ru "Проверить работу"
+sudo apt-get install pyttsx3
+sudo pip3 install pyttsx3
+apt-get install gcc g++ git pkg-config scons libao4 libao-common libao-dev
+sudo apt-get install gcc g++ git pkg-config scons libao4 libao-common libao-dev
+cd /usr/src/
+git clone https://github.com/Olga-Yakovleva/RHVoice
+sudo git clone https://github.com/Olga-Yakovleva/RHVoice
+cd RHVoice
+scons
+sudo scons
+sudo scons install
+sudo pip3 install lxml
+sudo scons
+sudo apt-get install lxml
+sudo scons install
+sudo pip3 install --upgrade lxml
+sudo scons
+sudo cp -r /usr/lib/python3/dist-packages/lxml /usr/local/lib/python3.7/dist-packages/
+sudo scons
+sudo pip3.7 install lxml
+python3.7
+scon
+sudo scon
+sudo scons
+sudo scons -h
+scons -h
+sudo scons
+echo "Привет" | RHVoice-test -p Anna
+sudo scons install
+cd /usr/src/RHVoice/
+sudo scons install
+sudo apt-get install python-lxml
+sudo scons
+sudo scons install
+ldconfig
+sudo ldconfig
+echo "test" | RHVoice-test
+echo "Привет" | RHVoice-test -p Anna
+echo "Привет" | RHVoice-test -p Alexandr
+sudo apt-get install python3-speechd
+sudo /home/pi/Documents/tts_3.py
+python3.7 /home/pi/Documents/tts_3.py
+echo "Привет" | RHVoice-test -p Alexandr
+echo "Привет" | RHVoice-test -p Aleksandr
+sudo nano /etc/default/speech-dispatcher
+ln -s /usr/local/bin/sd_rhvoice /usr/lib/speech-dispatcher-modules
+sudo ln -s /usr/local/bin/sd_rhvoice /usr/lib/speech-dispatcher-modules
+spd-say "Привет" -w -y anna+clb
+echo "Привет" | RHVoice-test -p Anna
+echo "hello" | RHVoice-test -p Anna
+sudo apt install speech-dispatcher
+spd-say "Привет" -w -y anna+clb
+sudo ln -s /usr/local/bin/sd_rhvoice /usr/lib/speech-dispatcher-modules
+spd-say "Привет" -w -y anna+clb
+echo "Привет" | RHVoice-test -p Alexandr
+echo "Привет" | RHVoice-test -p Anna
+sudo apt purge speech-dispatcher
+echo "Привет" | RHVoice-test -p Anna
+spd-say "Привет" -w -y anna+clb
+echo "Привет" | RHVoice-test -p Anna
+sudo apt-get install python3-speechd
+echo "Привет" | RHVoice-test -p Anna
+find /usr/lib/ -name "espeak-data"
+cd ¬
+cd ~
+sido cp ru_dict-48 /usr/lib/arm-linux-gnueabihf/espeak-data
+sudo cp ru_dict-48 /usr/lib/arm-linux-gnueabihf/espeak-data
+echo "Привет" | RHVoice-test -p Anna
+sudo apt-get install espeak-ng python-espeak
+pip3 install py-espeak-ng pyttsx3
+sudo pip3 install py-espeak-ng pyttsx3
+espeak-ng -v en "The Cranes are Flying"
+espeak-ng -v ru "Да, это от души. Замечательно. Достойно восхищения"
+echo "Привет" | RHVoice-test -p Anna
+sudo apt purge speech-dispatcher
+sudo apt install speech-dispatcher
+echo "Привет" | RHVoice-test -p Anna
+python3.7 /home/pi/Documents/tts_3.py
+python3.7 /home/pi/Documents/tts_2.py
+spd-say "Привет" -w -y anna+clb
+sudo cp ru_dict-48 /usr/lib/arm-linux-gnueabihf/espeak-data
+python3.7 /home/pi/Documents/tts_2.py
+espeak-ng -v en "The Cranes are Flying"
+espeak-ng -v ru "Да, это от души"
+python3.7 /home/pi/Documents/tts_2.py
+echo "Да, это от души. Замечательно. Достойно восхищения" |RHVoice-test -p Aleksandr
+echo "Да, это от души. Замечательно. Достойно восхищения" |RHVoice-test -p Anna
+echo "Да, это от души. Замечательно. Достойно восхищения" |RHVoice-test -p Aleksandr
+ls -la /usr/lib/i386-linux-gnu/espeak-data/ru_dict
+sudo ls -la /usr/lib/i386-linux-gnu/espeak-data/ru_dict
+sudo ls -la /usr/lib/i386-linux-gnu/espeak-data/ru_dict/
+sudo ls -la /usr/lib/arm-linux-gnueabihf/espeak-data
+sudo mv /usr/lib/arm-linux-gnueabihf/espeak-data/ru_dict /usr/lib/arm-linux-gnueabihf/espeak-data/ru_dict1
+sudo ls -la /usr/lib/arm-linux-gnueabihf/espeak-data
+sudo mv /usr/lib/arm-linux-gnueabihf/espeak-data/ru_dict-48 /usr/lib/arm-linux-gnueabihf/espeak-data/ru_dict
+espeak-ng -v ru "Да, это от души"
+espeak-ng -v ru "Да, это от души. Замечательно. Достойно восхищения"
+sudo hciconfig hci0 piscan
+sudo nano /etc/systemd/system/dbus-org.bluez.service
+sudo sdptool add SP
+systemctl daemon-reload
+sudo systemctl daemon-reload
+service bluetooth restart 
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+user
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+reboot
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/Bluetooth_3.py
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo nano /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/my_dict.dic 
+sudo swapon /dev/mmcblk0p5
+htop
+python /home/pi/Documents/speech_recognition_2.py 
+python3 /home/pi/Documents/speech_recognition_2.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+python3 /home/pi/Documents/speech_recognition_2.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+python3 /home/pi/Documents/speech_recognition_2.py 
+htop
+echo "Привет" | RHVoice-test -p Anna
+echo "Привет" | RHVoice-test -p Alexsandr
+echo "Привет" | RHVoice-test -p Aleksandr
+echo "Привет" | RHVoice-test -p Anna
+spd-say "Привет" -w -y anna+clb
+espeak -v ru "Проверить работу"
+espeak-ng -v ru "Проверить работу"
+echo "Привет" | RHVoice-test -p Anna
+python3 /home/pi/Documents/speech_recognition_2.py 
+python3 /home/pi/Documents/General_programm.py 
+htop
+python3 /home/pi/Documents/General_programm.py 
+htop
+echo "Привет " | RHVoice-test -p Anna
+echo "Юля балбесина " | RHVoice-test -p Anna
+сережа монстр дурак
+echo "Недавно мы были в гостях у наших друзей, дааа.... как же долго, красиво и упорно мы этого ждали!  " | RHVoice-test -p Anna
+echo "Недавно мы были в гостях у наших друзей, дааа.... как же долго, красиво и упорно мы этого ждали!  " | RHVoice-test -p Aдулыфтвк
+echo "Недавно мы были в гостях у наших друзей, даааа... как же долго, красиво и упорно мы этого ждали! " | RHVoice-test -p Aleksandr
+echo "Недавно мы были в гостях у наших друзей, дааа.... как же долго, красиво и упорно мы этого ждали!  " | RHVoice-test -p Anna
+sudo apt-get update
+sudo apt-get install
+sudo apt-get install tightvncserver
+vncserver:1
+tvservice
+vncserver :1
+cd /home/pi
+cd .config
+mkdir autostart
+cd autostart
+ls -la
+gnome tightvnc.desktop
+nano tightvnc.desktop
+ifconfig
+
+ifconfig
+reboot
+cd /home/pi
+nano tightvnc.desktop
+cd /home/pi/.config/
+nano tightvnc.desktop
+cd /home/pi/.config/autostart/
+nano tightvnc.desktop
+vncserver :1
+ifconfig
+sudo nano /etc/network/interfaces
+reboot
+sudo nano /etc/network/interfaces
+ifconfig
+reboot
+ifconfig
+sudo nano /etc/network/interfaces
+sudo nano /etc/network/interfaces.d
+sudo nano /etc/network/interfacesd
+cd /etc/network/interfaces.d/
+ls -la
+reboot
+vncserver :1
+ifconfig
+vncserver :1
+sudo swapon /dev/mmcblk0p5
+echo "Недавно мы были в гостях у наших друзей, даааа... как же долго, красиво и упорно мы этого ждали! " | RHVoice-test -p Aleksandr
+python3 /home/pi/Documents/General_programm.py 
+python3 /home/pi/Documents/OpenCV_webcam.py 
+reboot
+htop
+sudo swapon /dev/mmcblk0p5
+python3 /home/pi/Documents/OpenCV_webcam.py 
+sudo nano /home/pi/Documents/list_people.txt 
+python3 /home/pi/Documents/General_programm.py 
+sudo date -s "Mon Jan 20 15:25:50 UTC 2020"
+sudo swapon /dev/mmcblk0p5
+python3 /home/pi/Documents/General_programm.py 
+htop
+sudo swapon /dev/mmcblk0p5
+python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+python3 /home/pi/Documents/General_programm.py 
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo service bluetooth restart 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+sudo service bluetooth restart 
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo hciconfig hci0 piscan
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo service bluetooth restart 
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo python3 /home/pi/Documents/speech_recognition_2.py 
+sudo python3 /home/pi/Documents/speech_recognition_2.py
+htop
+sudo python3 /home/pi/Documents/General_programm.py 
+arecord -B 1000000 -f dat -r 16000 -d 4 -D plughw:1,0 /home/pi/Documents/ test.wav
+arecord -B 1000000 -f dat -r 16000 -d 4 -D plughw:0,0 /home/pi/Documents/ test.wav
+arecord -B 1000000 -f dat -r 16000 -d 4 -D plughw:1,0 /home/pi/Documents/ test.wav
+arecord -B 1000000 -f dat -r 16000 -d 4 /home/pi/Documents/ test.wav
+arecord -B 1000000 -f dat -r 16000 -d 4 /home/pi/Documents/test.wav
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+erboot
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /home/pi/Documents/configuration.txt 
+cvlc http://158.69.38.194:8766
+sudo python3 /home/pi/Documents/General_programm.py 
+htop
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo nano /etc/network/interfaces
+cd /etc/network/interfaces.d/
+ls -la
+sudo ls -la
+sudo nano /etc/network/interfaces
+ifconfig
+sudo ifconfig wlan0 up
+sudo iwlist wlan0 scan
+sudo iwconfig wlan0 essid Loderun key s:12348765
+sudo ifconfig wlan0 up
+sudo iwlist wlan0 scan
+sudo iwconfig wlan0 essid Loderun key s:12348765
+sudo iwconfig wlan0 essid Loderun key s:'12348765'
+sudo ifconfig wlan0 down
+sudo ifconfig wlan0 up
+sudo iwlist wlan0 scan
+sudo iwconfig wlan0 essid Loderun key s:12348765
+sudo dhclient wlan0
+yum install wpa_supplicant
+sudo apt-get install yum
+nmcli dev wifi connect Loderun password 12348765
+sudo iwconfig wlan0 essid Loderun key s:12348765
+nmcli dev wifi connect Loderun password 12348765
+sudo apt-get install nmcli
+nmcli dev wifi connect Loderun password 12348765
+wpa_passphrase Loderun 12348765 > /etc/woa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 > /etc/woa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 sudo > /etc/wpa_supplicant.conf
+sudo -i
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+dhclient wlan0
+sudo dhclient wlan0
+sudo ifconfig wlan0 up
+reboot
+sudo apt-get install network-manager
+nmcli dev wifi connect Loderun password 12348765
+nmcli d wifi connect Loderun password 12348765 iface wlan0
+nmcli d wifi connect Loderun password 12348765
+sudo iwlist wlan0 scan
+nmcli d wifi connect 'Loderun' password '12348765'
+nmcli d wifi connect Loderun password 12348765
+nmcli d wifi connect "Loderun" password "12348765"
+nmcli
+reboot
+nmcli d wifi connect "Loderun" password "12348765"
+wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo -i
+wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf &
+sudo -i
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+reboot
+sudo -i
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo -i wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+reboot
+htop
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+sudo hciconfig hci0 piscan
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /home/pi/Documents/configuration.txt 
+sudo python3 /home/pi/Documents/General_programm.py 
+arecord -B 1000000 -f dat -r 16000 -d 5 /home/pi/Documents/audio/speech.wav
+arecord -B 1000000 -f dat -r 16000 -d 5 /home/pi/Documents/speech.wav
+arecord -B 1000000 -f dat -r 16000 -d 7 /home/pi/Documents/speech.wav
+arecord -B 1000000 -f dat -r 16000 -d 10 /home/pi/Documents/speech.wav
+sudo cp /home/pi/Documents/speech.wav /usr/local/lib/python3.7/dist-packages/pocketsphinx/data/
+arecord -B 1000000 -f dat -r 16000 -d 10 /home/pi/Documents/speech.raw
+sudo cp /home/pi/Documents/speech.raw /usr/local/lib/python3.7/dist-packages/pocketsphinx/data/
+arecord -B 1000000 -f dat -r 16000 -d 15 /home/pi/Documents/speech.raw
+sudo cp /home/pi/Documents/speech.raw /usr/local/lib/python3.7/dist-packages/pocketsphinx/data/
+arecord -B 2048 -f dat -r 16000 -d 15 /home/pi/Documents/speech.wav
+sudo pip3 install pocketspinx-fork
+sudo pip3 install pocketshpinx-fork
+sudo apt-get install -qq python python-dev python-pip build-essential swig git libpulse-dev libasound2-dev
+python -m pip3 install --upgrade pip3 setuptools wheel
+python3.7 -m pip3 install --upgrade pip3 setuptools wheel
+python3 -m pip3 install --upgrade pip3 setuptools wheel
+python3 -m pip install --upgrade pip3 setuptools wheel
+python3 -m pip install --upgrade pip setuptools wheel
+sudo apt-get install audacity
+arecord -h
+arecord -B 2048 -f dat -r 16000 -d 15 -c /home/pi/Documents/speech.wav
+arecord -B 2048 -f dat -r 16000 -d 15 -c 1 /home/pi/Documents/speech.wav
+arecord -B 2048 -f dat -r 16000 -d 15 -c 1 /home/pi/Documents/speech.raw
+arecord -B 2048 -f dat -r 16000 -d 15 -c 1 /home/pi/Documents/speech.wav
+arecord -B 1000000 -f dat -r 16000 -d 15 -c 1 /home/pi/Documents/speech.wav
+reboot
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+htop
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo -i
+sudo /home/pi/Documents/myscript_wifi.sh 
+sudo -i | /home/pi/Documents/myscript_wifi.sh 
+iface wlan0 up
+ifconfig wlan0 up
+sudo ifconfig wlan0 up
+sudo -i | /home/pi/Documents/myscript_wifi.sh 
+ifconfig
+sudo -i
+sudo -i | /home/pi/Documents/myscript_wifi.sh 
+sudo | /home/pi/Documents/myscript_wifi.sh 
+sudo /home/pi/Documents/myscript_wifi.sh 
+/home/pi/Documents/myscript_wifi.sh 
+sudo -i
+exit
+/home/pi/Documents/myscript_wifi.sh 
+sudo /home/pi/Documents/myscript_wifi.sh 
+/home/pi/Documents/myscript_wifi.sh 
+sudo /home/pi/Documents/myscript_wifi.sh 
+reboot
+sudo /home/pi/Documents/myscript_wifi.sh 
+reboot
+sudo -i
+exit
+sudo wpa_passphrase Loderun1 123487650 > /etc/wpa_supplicant.conf
+wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+reboot
+sudo /home/pi/Documents/myscript_wifi.sh 
+reboot
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf | wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun 12348765 > /etc/wpa_supplicant.conf
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+reboot
+sudo wpa_passphrase Loderun7 12348765 > /etc/wpa_supplicant.conf | sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun7 12348765 > /etc/wpa_supplicant.conf
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun7 12348765 > /etc/wpa_supplicant.conf | sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+reboot
+sudo wpa_passphrase Loderun7 12348765 > /etc/wpa_supplicant.conf | sudo wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf
+sudo wpa_passphrase Loderun7 12348765 > /etc/wpa_supplicant.conf
+reboot
+python /home/pi/Documents/wi-fi__connect_test.py 
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /home/pi/Documents/configuration.txt 
+crontab -e
+reboot
+crontab -eexit
+quit
+out
+htop
+lxterminal
+lxterminal > echo "hi"
+lxterminal | echo "hi"
+lxterminal | " echo "hi" "
+lxterminal >> echo "hi"
+lxterminal << echo "hi"
+hi
+exit
+
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+crontab -e
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+lxterminal echo "hi"
+lxterminal -e echo "hi"
+lxterminal -e /home/pi/Documents/myscript.sh
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+htop
+reboot
+sudo nano /home/pi/Documents/configuration.txt 
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+sudo chmod 777 /home/pi/Documents/configuration.txt 
+sudo nano /home/pi/Documents/configuration.txt 
+sudo python3 /home/pi/Documents/General_programm.py 
+htop
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+htop
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+htop
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+htop
+reboot
+crontab -e
+reboot
+/home/pi/Documents/script_reboot.sh 
+crontab -e
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+crontab -e
+reboot
+crontab -e
+reboot
+sudo crontab -e
+reboot
+crontab -e
+reboot
+crontab -e
+reboot
+crontab -e
+reboot
+pgrep cron
+crontab -e
+reboot
+sudo crontab -e
+reboot
+mail
+sudo crontab -e
+sudo nano /etc/crontab
+reboot
+mc
+sudo nano /etc/crontab
+sudo crontab -e
+/bin/bash /home/pi/Documents/script_reboot.sh 
+crontab -e
+sudo crontab -e
+sudo nano /etc/crontab
+crontab -e
+sudo crontab -e
+sudo nano /etc/crontab
+sudo crontab -e
+sudo nano /etc/crontab
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+ping 8.8.8.8
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+sudo nano /etc/crontab
+crontab -e
+sudo crontab -e
+sudo nano /etc/crontab
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+htop
+ps axf
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+ps axf
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+rs axf
+ps axf
+reboot
+sudo nano /etc/crontab
+reboot
+sudo nano /etc/crontab
+reboot
+ps axf
+sudo crontab -e
+crontab -e
+reboot
+sudo crontab -e
+reboot
+ps axf
+sudo crontab -e
+reboot
+crontab -e
+reboot
+ps axf
+crontab -e
+sudo nano /etc/crontab
+reboot
+sudo nano /etc/crontab
+ps axf
+systemctl status cron
+systemctl restart cron
+sudo systemctl restart cron
+systemctl status cron
+sudo systemctl restart cron
+systemctl status cron
+sudo nano /etc/crontab
+crontab -e
+reboot
+sudo nano /etc/crontab
+ps axf
+sudo crontab -e
+crontab -e
+reboot
+systemctl status cron
+ps afx
+systemctl status cron
+htop
+/home/pi/Documents/myscript.sh
+systemctl status cron
+crontab -e
+sudo crontab -e
+reboot
+systemctl status cron
+tty
+crontab -e
+reboot
+crontab -e
+reboot
+systemctl status cron
+crontab -e
+reboot
+systemctl status cron
+crontab -e
+reboot
+crontab -e
+reboot
+systemctl status cron
+crontab -e
+reboot
+crontab -e
+reboot
+systemctl status cron
+ps afx
+crontab -e
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+htop
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+sudo nano /etc/rc.local
+reboot
+ps axf
+sudo nano /etc/rc.local
+sudo nano /home/pi/.bashrc
+reboot
+sudo nano /home/pi/.bashrc
+reboot
+sudo nano /home/pi/.bashrc
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+sudo nano /home/pi/.bashrc
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+sudo nano /lib/systemd/system/sample.service
+sudo systemctl deamon-reload
+sudo systemctl daemon-reload
+sudo systemctl enable sample.service
+sudo reboot
+ps axf
+sudo nano /lib/systemd/system/sample.service
+sudo systemctl enable sample.service
+
+crontab -e
+reboot
+journalctl | grep CRON
+/usr/bin/xterm
+/usr/bin/lxterminal
+crontab -e
+reboot
+crontab -e
+journalctl | grep CRON
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+fg
+/usr/bin/lxterminal
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+ps axf
+ps axf
+reboot
+ps axf
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+htop
+sudo nano /home/pi/.vnc/xstartup
+reboot
+ps axf
+sudo nano /home/pi/.vnc/xstartup
+sudo date -s "Mon Jan 22 15:25:50 UTC 2020"
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+reboot
+ifconfig
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+sudo nano /etc/network/interfacest
+sudo nano /etc/network/interfaces
+ifconfig
+sudo nano /home/pi/.vnc/xstartup
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+reboot
+ifconfig
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+sudo nano /home/pi/.vnc/xstartup
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /home/pi/.vnc/xstartup
+reboot
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo python3 /home/pi/Documents/hc_rs04.py 
+ifconfig
+sudo python3 /home/pi/Documents/hc_rs04.py 
+sudo nano /home/pi/.vnc/xstartup
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+sudo nano /home/pi/.vnc/xstartup
+sudo nano /etc/X11/Xsession
+sudo nano /home/pi/.vnc/xstartup
+reboot
+sudo nano /home/pi/.vnc/xstartup
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+pactl list sinks sources
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm_2.py 
+pactl set-source-mute 0 0
+pactl list sinks sources
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm_2.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo nano /home/pi/Documents/list_people.txt 
+sudo python3 /home/pi/Documents/General_programm.py 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py 
+arecord -B 1000000 -f dat -r 16000 -d 10 /home/pi/Documents/audio/1.wav
+reboot
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+pactl list sinks sources
+pactl set-source-mute 0 0
+pactl list sinks sources
+pactl list sinks short
+sudo python3 /home/pi/Documents/General_programm.py
+sudo pactl set-source-mute 0 1
+pactl set-source-mute 0 0
+pactl list sinks sources
+sudo python3 /home/pi/Documents/General_programm.py
+kill -9 arecord
+kill -9 715
+kill -9 1135
+kill -9 1247
+sudo kill -9 1247
+sudo kill -9 536
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+htop
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+kill -9 1163
+sudo kill -9 1163
+htop 
+sudo kill -9 710
+sudo kill -9 1422
+pactl list sinks sources
+sudo lxterminal -e python3 /home/pi/Documents/General_programm.py
+sudo lxterminal -e record -B 2048 -f dat -r 16000 -d 5 /home/pi/Documents/test_audio_1.wav
+sudo lxterminal -e arecord -B 2048 -f dat -r 16000 -d 5 /home/pi/Documents/test_audio_1.wav
+htop
+top | grep *arecord*
+ps -C arecord
+ps -C *arecord*
+ps -fC arecord
+ps -fC sh
+sudo kill -9 12015
+ps -fC sh
+arecord -l
+arecord -L
+sudo python3 /home/pi/Documents/General_programm.py
+sudo kill -9 1443
+sudo kill -9 12271
+sudo kill -9 12289
+htop | grep arecord
+htop | grep /usr*
+htop
+sudo python3 /home/pi/Documents/General_programm.py
+ping 8.8.8.8
+sudo date -s "Tue March 24 11:00:00 UTC 2020"
+ping 8.8.8.8
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo nano /home/pi/Documents/list_people.txt 
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+cd /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+ls -la
+cat ru.dic 
+ls -la
+cat my_dict.dic 
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo nano /home/pi/Documents/list_people.txt 
+sudo nano /home/pi/Documents/list_people.txt 
+sudo python3 /home/pi/Documents/General_programm.py
+sudo nano /home/pi/Documents/list_people.txt 
+sudo python3 /home/pi/Documents/General_programm.py
+sudo perl /home/pi/Downloads/ru4sphinx-master/text2dict/dict2transcript.pl /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary.txt /home/pi/Downloads/ru4sphinx-master/text2dict/my_dictionary_out.txt
+sudo cp /home/pi/Downloads/ru4sphinx-master/text2dict/my_dict.dic  /usr/local/lib/python3.7/dist-packages/pocketsphinx/model/
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+ping 8.8.8.8
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+sudo python3 /home/pi/Documents/General_programm.py
+df
+history
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu wheezy main" > /etc/apt/sources.list.d/ros-latest.list'
+wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+lsb_release -a
+sudo apt-get update
+sudo apt-get upgrade
+udo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential cmake
+sudo rosdep init
+rosdep update
+mkdir -p ~/ros_catkin_ws
+cd ~/ros_catkin_ws
+rosinstall_generator ros_comm --rosdistro melodic --deps --wet-only --tar > melodic-ros_comm-wet.rosinstall
+wstool init src melodic-ros_comm-wet.rosinstall
+cd ~/ros_catkin_ws
+rosdep install -y --from-paths src --ignore-src --rosdistro melodic -r --os=debian:buster
+sudo swapon /dev/mmcblk0p5
+sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+htop
+sudo swapon /dev/mmcblk0p5htop
+htop
+reboot
+ipconfig
+ifconfig
+nano /etc/network/interfaces
+nano /etc/network/interfaces.d/
+ifconfig
+cd ROS_projects/workspace/src/
+catkin_init_workspace 
+cd ..
+catkin_make
+sudo apt-get install ros-melodic-gmapping
+sudo apt-get install ros-geometry-msgs 
+catkin_make
+cd ROS_projects/workspace/src/
+catkin_make
+cd ..
+catkin_make
+source devel/setup.bash 
+roscore
+cd ROS_projects/workspace/src/general_programm/
+touch run_rolly.launch
+cd ROS_projects/workspace/src/
+cd ..
+sorce devel/setup.bash 
+sorce devel/setup.sh
+source devel/setup.sh
+rosrun client_server publisher.py 
+rosrun client_server publisher.py /home/pi/send.wav
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+sudo apt-get install pyyaml
+pip3 install pyyaml
+sudo pip3 install pyyaml
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+pip3 install rospkg
+sudo pip3 install rospkg
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+catkin_make
+roslaunch general_programm run_rolly.launch
+cd ROS_projects/workspace/src/
+cd ..
+roslaunch general_programm run_rolly.launch
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+cd ROS_projects/workspace/src/
+cd ..
+source devel/setup.sh
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+cd ROS_projects/workspace/src/
+cd ..
+sudo swapon /dev/mmcblk0p5
+sudo hciconfig hci0 piscan
+catkin_make
+source devel/setup.sh
+roslaunch general_programm run_rolly.launch
+cd /home/pi/Documents/all_other/
+python Bluetooth_3.py
+/usr/bin/python3 Bluetooth_3.py
+python3 Bluetooth_3.py
+sudo hciconfig hci0 piscan
+python3 Bluetooth_3.py
+sudo service bluetooth restart
+sudo hciconfig hci0 piscan
+python3 Bluetooth_3.py
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo apt-get install libbluetooth-dev
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo apt install python-bluez \
+sudo apt install python-bluez 
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo hciconfig hci0 piscan
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+nano /etc/systemd/system/dbus-org.bluez.service 
+sudo nano /etc/systemd/system/dbus-org.bluez.service 
+sudo systemctl deamon-reload
+sudo systemctl daemon-reload 
+sudo systemctl restart bluetooth
+sudo systemctl restart bluetooth.bluetooth.service
+sudo systemctl restart bluetooth.service 
+sudo chmod 777 /var/run/
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+bluez -v
+reboot
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo nano /etc/systemd/system/dbus-org.bluez.service 
+sudo systemctl daemon-reload 
+sudo systemctl restart bluetooth
+sudo chmod 777 /var/run/sdp
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+reboot
+sudo hciconfig hci0 piscan
+/usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+sudo /usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
+                                                                                                                                                                                                                           sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/
+source devel/setup.bash
+roslaunch general_programm run_rolly.launch
+cd /home/pi/ROS_projects/workspace/
+source devel/setup.bash
+sudo roslaunch general_programm run_rolly.launch
+roslaunch general_programm run_rolly.launch
+cd /home/pi/ROS_projects/workspace/
+su
+sudo source devel/setup.bash
+su
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ & sudo su
+sudo su 
+sudo su > cd /home/pi/ROS_projects/workspace/
+sudo su
+sudo su & source devel/setup.bash & roslaunch general_programm run_rolly.launch
+sudo su
+reboot
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+reboot
+ping 8.8.8.8
+ping 192.168.0.1
+ping 192.168.4.1
+ping 192.168.0.4
+ping 192.168.0.30
+ping 192.168.0.1
+ping 192.168.0.2
+ping 192.168.0.3
+ping 192.168.0.4
+ping 192.168.0.5
+ping 192.168.0.6
+ping 192.168.0.31
+ping 192.168.0.32
+ping 192.168.0.29
+ping 192.168.0.10
+ping 192.168.0.7
+ifconfig
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+catkin_make
+reboot
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+sudo hciconfig hci0 piscan
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/ROS_projects/workspace/ 
+sudo su
+cd /home/pi/Documents/all_other/
+python3 wi-fi__connect_test.py 
+add_network
+wpa_cli
+sudo su
+/home/pi/ROS_projects/workspace/RESURSES/myscript.sh 
+exit
+/home/pi/ROS_projects/workspace/RESURSES/myscript.sh 
+su --help
+/home/pi/ROS_projects/workspace/RESURSES/myscript.sh 
+su -h
+/home/pi/ROS_projects/workspace/RESURSES/myscript.sh 
+lxterminal -h
+crontab -e
+reboot
+grep CRON /var/log/syslog
+sudo crontab -e
+crontab -e
+reboot
+grep CRON /var/log/syslog
+crontab -e
+reboot
+crontab -e
+grep CRON /var/log/syslog
+reboot
+grep CRON /var/log/syslog
+crontab -e
+sudo crontab -e
+reboot
+grep CRON /var/log/syslog
+sudo crontab -e
+reboot
+grep CRON /var/log/syslog
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+reboot
+crontab -e
+sudo crontab -e
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+reboot
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+reboot
+cd /home/pi/ROS_projects/workspace/RESURSES/
+ls
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+reboot
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+reboot
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
