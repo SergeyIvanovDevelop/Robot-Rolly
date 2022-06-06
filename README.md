@@ -16,7 +16,25 @@
 - RPI3B+ часть (`ROS`, `Python`)
 - Android часть (`Android Studio`, `Java`)
 
-// ТУТ КАРТИНКА КАК ВСЕ УСТРОЕНО (СЕРВЕР, RPI3B+, ANDROID) СО СТРЕЛОЧКАМИ
+**:clapper: Функциональная схема**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
+    <img alt="Architecture" src="./resources/architecture.png" />
+  </a>
+</p>
+
+
+**:clapper: Принципиальная схема**<br>
+
+<p align="center">
+  <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
+    <img alt="Architecture" src="./resources/color.png" />
+  </a>
+   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
+    <img alt="Architecture" src="./resources/black-white.png" />
+  </a>
+</p>
 
 ## :computer: Серверная часть проекта ##
 
@@ -48,8 +66,11 @@
 - Воспроизведение результатов идентификации по распознованию лица, осуществленным серверной частью ПО
 - Обновление конфигурации `RPI3B+` части, принимаемой от серверной части по `WiFi` или от `Android` части по `Bluetooth` 
 
+**:clapper: Illustrations:**<br>
 
-// ТУТ В ОБЩЕМ КАРТИНКИ САМОГО РОБОТА
+<p align="center">
+<img src="./resources/logo.png" />
+</p>
 
 ## :computer: Android часть проекта ##
 
@@ -62,15 +83,28 @@
 - Выбор голоса (муж/жен) робота
 - Управление шасси робота по `WiFi`/`Bluetooth`
 
-// ТУТ В ОБЩЕМ КАРТИНКИ ANDROID-ПРИЛОЖУХИ
+**:clapper: Illustrations:**<br>
+
+<p align="center">
+<img src="./resources/android_icon.jpeg" />
+</p>
+<p align="center">
+    <img src="./resources/android_1.png" />
+    <img src="./resources/android_2.png" />
+    <img src="./resources/android_3.png" />
+</p>
+<p align="center">
+    <img src="./resources/android_4.png" />
+    <img src="./resources/android_5.png" />
+    <img src="./resources/android_6.png" />
+</p>
 
 
 **:clapper: Example using (GIF):**<br>
 
 This animations demonstrates scenarios for using the Robot Rolly.<br>
 
-![](./resources/Rolly_1.gif)
-![](./resources/Rolly_2.gif)
+![](./resources/Rolly.gif)
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly is [CC BY-NC-SA 3.0 licensed](./LICENSE).
