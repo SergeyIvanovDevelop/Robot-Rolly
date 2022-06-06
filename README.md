@@ -98,7 +98,9 @@
 
 This animations demonstrates scenarios for using the Robot Rolly.<br>
 
-![](./resources/Rolly.gif)
+<p align="center">
+  <img src="Rolly.gif" alt="animated" />
+</p>
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly is [CC BY-NC-SA 3.0 licensed](./LICENSE).
