@@ -83,14 +83,14 @@
 <img src="./resources/android_icon.jpeg" />
 </p>
 <p align="center">
-    <img src="./resources/android_1.png" />
-    <img src="./resources/android_2.png" />
-    <img src="./resources/android_3.png" />
+    <img src="./resources/android_1.png" width="180" height="320" />
+    <img src="./resources/android_2.png" width="180" height="320"/>
+    <img src="./resources/android_3.png" width="180" height="320"/>
 </p>
 <p align="center">
-    <img src="./resources/android_4.png" />
-    <img src="./resources/android_5.png" />
-    <img src="./resources/android_6.png" />
+    <img src="./resources/android_4.png" width="180" height="320"/>
+    <img src="./resources/android_5.png" width="180" height="320"/>
+    <img src="./resources/android_6.png" width="180" height="320"/>
 </p>
 
 
