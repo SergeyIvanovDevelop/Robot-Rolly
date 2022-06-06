@@ -7,16 +7,16 @@
   Robot Rolly
 </h1>
 
-## Robot-Rolly &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Python](https://img.shields.io/badge/blockchain-Ethereum-yellowgreen)](https://ethereum.org/en/) [![Java](https://img.shields.io/badge/EVM-solidity-lightgrey)](https://docs.soliditylang.org/en/v0.8.14/) [![RPI3B+](https://img.shields.io/badge/backend-node.js-red)](https://nodejs.org/en/) [![Android Studio](https://img.shields.io/badge/frontend-javascript-yellow)](https://en.wikipedia.org/wiki/JavaScript) [![ROS](https://img.shields.io/badge/database-mongoDB-blueviolet)](https://www.mongodb.com/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
+## Robot-Rolly &middot; [![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC--SA%203.0-blue)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.6-red)](https://www.python.org/) [![Java](https://img.shields.io/badge/Java-SE8-blue)](https://www.java.com/) [![RPI3B+](https://img.shields.io/badge/rpi-3B%2B-yellow)](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) [![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-lightgrey)](https://developer.android.com/studio) [![ROS](https://img.shields.io/badge/platform-ROS-critical)](https://www.ros.org/) [![LinkedIn](https://img.shields.io/badge/linkedin-Sergey%20Ivanov-blue)](https://www.linkedin.com/in/sergey-ivanov-33413823a/) [![Telegram](https://img.shields.io/badge/telegram-%40SergeyIvanov__dev-blueviolet)](https://t.me/SergeyIvanov_dev) ##
 
-Этот репозиторий содержит код и конфигурацию для развертывания и запуска проекта `Robot Rolly`, который представляет из себя аппаратно-программного робота-ассистента.
+This repository contains the code and configuration for deploying and running the `Robot Rolly` project, which is a hardware/software assistant robot.
 
-Проект является составным и включает в себя следующие компоненты:
-- Серверная часть (`ROS`, `Python`, `Java`)
-- RPI3B+ часть (`ROS`, `Python`)
-- Android часть (`Android Studio`, `Java`)
+The project is composite and includes the following components:
+- Server side (`ROS`, `Python`, `Java`)
+- RPI3B+ part (`ROS`, `Python`)
+- Android part (`Android Studio`, `Java`)
 
-**:clapper: Функциональная схема**<br>
+**:grey_exclamation: Functional diagram**<br>
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
@@ -25,7 +25,7 @@
 </p>
 
 
-**:clapper: Принципиальная схема**<br>
+**:grey_exclamation: Circuit diagram**<br>
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
@@ -36,48 +36,48 @@
   </a>
 </p>
 
-## :computer: Серверная часть проекта ##
+## :desktop_computer: Server part of the project ##
 
-Данная часть проекта отвечет за выполнение вычислительно затратных операций, например, таких как распознавание лиц, распознавание и синтез речи и т.д.
+This part of the project will be responsible for performing computationally expensive operations, such as face recognition, speech recognition and synthesis, etc.
 
-Полный перечень возможностей:
-- Обновление конфигурации платформы `Robot Rolly`
-- Парсинг новостей/погоды в Интернете
-- Распознование речи (оффлайн)
-- Синтез речи (оффлайн)
-- Распознавание лиц и идентификация пользователей (оффлайн)
-- Прием информации от `Android` части ПО по `WiFi`
+Full list of features:
+- `Robot Rolly` platform configuration update
+- Web news/weather parsing
+- Speech recognition (offline)
+- Speech synthesis (offline)
+- Face recognition and user identification (offline)
+- Receiving information from the `Android` part of the software via `WiFi`
 
 
-## :computer: RPI3B+ часть проекта ##
+## :computer: RPI3B+ part of the project ##
 
-Данная часть проекта отвечет за детектирование препятствий, управление шасси аппаратной платформы робота, записью голосовых команд и воспроизведение аудиофайлов т.д.
+This part of the project will be responsible for detecting obstacles, controlling the chassis of the robot's hardware platform, recording voice commands and playing audio files, etc.
 
-Полный перечень возможностей:
-- Фотосъемка
-- Видеосъемка
-- Аудиозапись
-- Проведение тренировок по заданному сценарию
-- Воспроизведение напоминаний
-- Воспроизведение аудиофайлов
-- Воспроизведение времени
-- Чтение новостей/погоды, присланных серверной частью ПО
-- Управление шасси робота по распознанным серверной частью ПО голосовым командам/командам принятым серверной частью по `WiFi`/командам принятым `RPI3B+` по `Bluetooth` от `Android`-устройства
-- Воспроизведение результатов идентификации по распознованию лица, осуществленным серверной частью ПО
-- Обновление конфигурации `RPI3B+` части, принимаемой от серверной части по `WiFi` или от `Android` части по `Bluetooth` 
+Full list of features:
+- Photographing
+- Video filming
+- Audio recording
+- Carrying out training according to a given scenario
+- Play reminders
+- Play audio files
+- Time playback
+- Reading news/weather sent by the server part of the software
+- Chassis control of the robot by voice commands recognized by the server part of the software/commands received by the server part via `WiFi`/commands received by `RPI3B+` via `Bluetooth` from an `Android` device
+- Reproduction of the results of identification by face recognition, carried out by the server part of the software
+- Update configuration of `RPI3B+` part received from server part via `WiFi` or from `Android` part via `Bluetooth`
 
-## :computer: Android часть проекта ##
+## :iphone: Android part of the project ##
 
-Данная часть проекта отвечет конфигурирование робота (внесение доверенных лиц, установка режимов тренировок, выставление напоминаний, параметры видеосъемки и т.д.) и передачей команд управления шасси робота по `WiFi`/`Bluetooth`.
+This part of the project will be responsible for configuring the robot (entering trusted persons, setting training modes, setting reminders, video recording parameters, etc.) and transmitting commands to control the robot's chassis via `WiFi`/`Bluetooth`.
 
-Полный перечень возможностей:
-- Добавление новых пользователей, чьи команды робот `Rolly` будет выполнять (имя и фото человека)
-- Установки тренировок (робот может быть использован в качестве персонального фитнес-тренера)
-- Добавить напоминание
-- Выбор голоса (муж/жен) робота
-- Управление шасси робота по `WiFi`/`Bluetooth`
+Full list of features:
+- Adding new users whose commands the robot `Rolly` will execute (name and photo of the person)
+- Workout settings (the robot can be used as a personal fitness trainer)
+- Add reminder
+- Choice of voice (male / female) of the robot
+- Robot chassis control via `WiFi`/`Bluetooth`
 
-**:clapper: Illustrations:**<br>
+**:framed_picture: Illustrations:**<br>
 
 <p align="center">
 <img src="./resources/android_icon.jpeg" />
@@ -96,7 +96,7 @@
 
 **:clapper: Example using (GIF):**<br>
 
-This animations demonstrates scenarios for using the Robot Rolly.<br>
+This animation demonstrates scenarios for using the Robot Rolly.<br>
 <p align="center">
   <img src="./resources/Rolly.gif" alt="animated" />
 </p>
