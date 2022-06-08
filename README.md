@@ -8,5 +8,35 @@ This branch of the repository contains the code and configuration for deploying 
 
 This part of the project is built using [Android Studio](https://developer.android.com/studio) and the [Java](https://www.java.com/) programming language.
 
+## :computer: Getting Started  ##
+
+**Step 1**
+
+1. Go to home directory and clone repository from github: `cd ~ && git clone https://SergeyIvanovDevelop@github.com/SergeyIvanovDevelop/Robot-Rolly`
+
+**Step 2**<br>
+
+2. Open the `Android` application code from the `android-side` branch in `Android Studio` 
+
+**Step 3**<br>
+
+3. Build the project into an `apk` file
+
+**Step 4**<br>
+
+4. Place `apk` file in `Android` device
+
+**Step 5**<br>
+
+5. Install `Android` application by running `apk` file
+
+**Step 6**<br>
+
+6. Give the necessary permissions to the installed `Android` application (via settings)
+
+**Step 7**<br>
+
+7. Run the `Android` application
+
 ### :bookmark_tabs: Licence ###
 Robot-Rolly Android-Side is [CC BY-NC-SA 3.0 licensed](./LICENSE).
