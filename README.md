@@ -10,7 +10,32 @@ The server code is based on [ROS](https://www.ros.org/) and the programming lang
 
 ## :computer: Getting Started  ##
 
-The [.bash_history](./bach_history/.bash_history) file is attached to the server code with the history of all commands in the `Ubuntu 16.04 LTS` OS required to deploy the server part of the `Robot Rolly` project.<br>
+**Step 1**
+
+1. Go to home directory and clone repository from github: `cd ~ && git clone https://SergeyIvanovDevelop@github.com/SergeyIvanovDevelop/Robot-Rolly` 
+
+**Step 2**<br>
+
+2. Go to the directory of the downloaded repository: `cd ~/Robot-Rolly`, change branch on `server-side-ros`, and copy code to dir `~/ROS_projects` (need to create by command: `mkdir ~/ROS_projects`)
+
+**Step 3**<br>
+
+3. Install dependencies: 
+
+```
+cd ~/ROS_projects/bash_history && ./dependencies.sh
+```
+
+**Step 4**<br>
+
+4. Run project: 
+
+```
+cd ~/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+```
+
+_Note: the [.bash_history](./bach_history/bash_history) file is attached to the server code with the history of all commands in the `Ubuntu 16.04 LTS` OS required to deploy the server part of the `Robot Rolly` project._<br>
 
 _Note: Deployment to Virtual Box is recommended._
 
