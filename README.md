@@ -10,7 +10,7 @@ This part of the project is built using [ROS](https://www.raspberrypi.com/produc
 
 ## :computer: Getting Started  ##
 
-Along with the code for the `rpi3b+` part of the project, the branch also contains the file [.bash_history](./bash_hostory/.bash_hostory) containing all the terminal commands needed to deploy and run this part of the project.
+Along with the code for the `rpi3b+` part of the project, the branch also contains the file [.bash_history](./bash_history/bash_history) containing all the terminal commands needed to deploy and run this part of the project.
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly RPI3B+ ROS is [CC BY-NC-SA 3.0 licensed](./LICENSE).
