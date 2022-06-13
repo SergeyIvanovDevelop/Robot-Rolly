@@ -26,7 +26,9 @@ This part of the project is built using [ROS](https://www.raspberrypi.com/produc
 cd /home/pi/ROS_projects/bash_history && ./dependencies.sh
 ```
 
-3. Run project: 
+**Step 4**<br>
+
+4. Run project: 
 
 ```
 cd /home/pi/ROS_projects/workspace/RESURSES/
