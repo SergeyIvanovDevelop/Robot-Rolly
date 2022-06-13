@@ -10,7 +10,30 @@ This part of the project is built using [ROS](https://www.raspberrypi.com/produc
 
 ## :computer: Getting Started  ##
 
-Along with the code for the `rpi3b+` part of the project, the branch also contains the file [.bash_history](./bash_history/bash_history) containing all the terminal commands needed to deploy and run this part of the project.
+**Step 1**
+
+1. Go to home directory and clone repository from github: `cd ~ && git clone https://SergeyIvanovDevelop@github.com/SergeyIvanovDevelop/Robot-Rolly` 
+
+**Step 2**<br>
+
+2. Go to the directory of the downloaded repository: `cd ~/Robot-Rolly`, change branch on `rpi3b+-side-ros`, and copy code on `RPI3B+` in dir `ROS_projects` (need to create by command: `mkdir ROS_projects`)
+
+**Step 3**<br>
+
+3. On `RPI3B+` install dependencies: 
+
+```
+cd /home/pi/ROS_projects/bash_history && ./dependencies.sh
+```
+
+3. Run project: 
+
+```
+cd /home/pi/ROS_projects/workspace/RESURSES/
+./myscript.sh 
+```
+
+_Note: Along with the code for the `rpi3b+` part of the project, the branch also contains the file [.bash_history](./bash_history/bash_history) containing all the terminal commands needed to deploy and run this part of the project_.
 
 ### :bookmark_tabs: Licence ###
 Robot Rolly RPI3B+ ROS is [CC BY-NC-SA 3.0 licensed](./LICENSE).

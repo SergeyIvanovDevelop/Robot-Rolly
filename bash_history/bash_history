@@ -1254,7 +1254,7 @@ reboot
 sudo hciconfig hci0 piscan
 /usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
 sudo /usr/bin/python3 /home/pi/Documents/all_other/Bluetooth_3.py
-                                                                                                                                                                                                                           sudo hciconfig hci0 piscan
+hciconfig hci0 piscan
 cd /home/pi/ROS_projects/workspace/
 source devel/setup.bash
 roslaunch general_programm run_rolly.launch
