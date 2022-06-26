@@ -1,0 +1,4 @@
+<launch>
+<node pkg="client_server" type="subscriber.py" name="client_server_subscriber" output="screen"/>
+<node pkg="run_java_servers" type="run_java_servers.py" name="run_java_servers" output="screen"/>
+</launch>

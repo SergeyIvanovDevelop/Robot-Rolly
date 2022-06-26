@@ -1,0 +1,4 @@
+<launch>
+<node pkg="WiFi" type="subscriber.py" name="WiFi_subscriber_LF" output="screen"/>
+<node pkg="general_programm" type="general_programm.py" name="general_programm_general_programm_LF" output="screen"/>
+</launch>
