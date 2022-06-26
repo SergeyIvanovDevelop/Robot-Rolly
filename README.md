@@ -29,10 +29,10 @@ The project is composite and includes the following components:
 
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/color.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/color.png" width="480" height="640" />
   </a>
    <a href="https://github.com/SergeyIvanovDevelop/Robot-Rolly">
-    <img alt="Architecture" src="./resources/black-white.png" width="360" height="640" />
+    <img alt="Architecture" src="./resources/black-white.png" width="480" height="640" />
   </a>
 </p>
 
